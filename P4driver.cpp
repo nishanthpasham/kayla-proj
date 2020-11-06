@@ -38,7 +38,7 @@ int main()
 		case 'D':
 		case 'd':
 			cin >> i;
-			remove<int>(root_ptr, i);
+			// remove<int>(root_ptr, i);
 			break;
 		case 'C':
 		case 'c':
@@ -46,7 +46,7 @@ int main()
 			break;
 		case 'R':
 		case 'r':
-			reflect<int>(root_ptr);
+			// reflect<int>(root_ptr);
 			break;
 		case 'P':
 		case 'p':

@@ -155,7 +155,7 @@ void insertRecursive (BinaryTreeNode<Item>* node_ptr, Item Target)
     than or equal to the node value. 
     Else put it on the right.
     */
-    if (is_leaf(node_ptr)){
+    if (is_leaf(node_ptr)) {
         if (Target <= node_ptr->data) {
             node_ptr->left = Target;
         } else {
